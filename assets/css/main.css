@@ -1942,7 +1942,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #f32853;
+			background-color: #B87551;
 			color: #ffffff !important;
 		}
 
@@ -1951,7 +1951,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f44066;
+				background-color: #6B442F;
 			}
 
 			input[type="submit"].special:active,
@@ -1959,7 +1959,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #f21040;
+				background-color: #B87551;
 			}
 
 		@media screen and (max-width: 480px) {
@@ -2735,7 +2735,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+			background-image: url("images/overlay.png"), url("../../images/burger1.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3090,8 +3090,8 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: center top;
+		background-image: url("burger.jpg"), url("../../images/burger.jpg");
+		background-position: center;
 		background-size: cover;
 		line-height: 1.75;
 		text-align: center;
@@ -3102,7 +3102,7 @@
 		}
 
 		#banner h2 {
-			color: #ffffff;
+			color: white;
 			display: inline-block;
 			font-size: 3.5em;
 			line-height: 1.35;
@@ -3110,7 +3110,7 @@
 		}
 
 		#banner p {
-			color: #aaa;
+			color: whitesmoke;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 			text-transform: uppercase;
@@ -3197,7 +3197,7 @@
 		}
 
 			#footer a:active, #footer a:hover {
-				color: #666;
+				color: #6B442F;
 			}
 
 		#footer .icons {
