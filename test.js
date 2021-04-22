@@ -1,9 +1,9 @@
 var data = [
-    {
+    /*{
         "name": "Boston Burger Co-Boylston",
         "image": "images/craigie.jpg",
         "desc": "With enormous customized shakes to fabulous burgers, Boston Burger Company seriously has some of the best burgers in Massachusetts"
-    },
+    }, I'm assuming this a duplicate because of the test, but I'll leave it here just in case its going to be a different restaraunt than the first*/
     {
         "name": "Tasty Burger",
         "image": "images/craigie.jpg",
