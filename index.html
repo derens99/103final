@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 	</head>
 	<body class="landing">
 
@@ -31,7 +32,7 @@
 
 		<!-- Banner -->
 			<section id="banner">
-				<h2>Boston's Top Burger Restaurants</h2>
+				<h2 id="h2"></h2>
 				<p>Find your BBB <br/>Best Boston Burgers</p>
 				<ul class="actions">
 					<li><a href="#favoritesection" class="button special big">Ready, Set, Grease</a></li>
@@ -71,7 +72,7 @@
 								<div class="image rounded"><img src="images/craigie.jpg" alt="" /></div>
 								<div class="content">
 									<header>
-										<h4><a href="craigie.html">Craigie on Main</a></h4>
+										<h4><a href="https://www.craigieonmain.com/" target ="_blank">Craigie on Main</a></h4>
 										<p>The Port | Cambridge</p>
 									</header>
 									<p>Using the local and fresh ingredients, Craigie on Main introduces some of the most creative culinary experience. With a rotating menu jusxtaposed by multiple constant staples, this burger spot is a must for all Burger enthusiasts. </p>
@@ -81,7 +82,7 @@
 								<div class="image rounded"><img src="images/rfosullivan.jpg" alt="" /></div>
 								<div class="content">
 									<header>
-										<h4><a href="rf.html">R.F. O'Sullivan & Son</a></h4>
+										<h4><a href="http://www.rfosullivans.com/" target ="_blank">R.F. O'Sullivan & Son</a></h4>
 										<p>Spring Hill | Cambridge</p>
 									</header>
 									<p> Burgers are simple in nature, which is why its range in juicy varieties matter. R.F. O'Sullivan specializes in that. With dozen of varieties, this burger establishment is perfect for the newbie burger lover trying to widen their palette.</p>
@@ -91,7 +92,7 @@
 								<div class="image rounded"><img src="images/thegallows.jpg" alt="" /></div>
 								<div class="content">
 									<header>
-										<h4><a href="gallows.html">The Gallows</a></h4>
+										<h4><a href="https://www.thegallowsboston.com/" target ="_blank">The Gallows</a></h4>
 										<p>South End | Boston</p>
 									</header>
 									<p>The Gallows presents "burgers" moreso in a sandwich style with flat-top patty style burgers. It's quirky and innovative menu earns it a spot in our favorites list.</p>
@@ -101,7 +102,7 @@
 								<div class="image rounded"><img src="images/tastyburger.JPG" alt="" /></div>
 								<div class="content">
 									<header>
-										<h4><a href="https://www.tastyburger.com/menu/">Tasty Burgers</a></h4>
+										<h4><a href="https://www.tastyburger.com/menu/" target ="_blank">Tasty Burgers</a></h4>
 										<p>Fenway | Boston</p>
 									</header>
 									<p>Tasty burgers exemplifies what fast-food burgers can be. It is a quick, easy, and cheap eat with quality ingredient and preparation. It's affordability for the quality is what earns it a spot on our list.</p>
@@ -123,6 +124,13 @@
 					</div>
 				</section>
 
+				<script>
+					new TypeIt("#h2", {
+					speed: 25,
+					})
+					.type("Boston's Top Burger Restaurants", {speed: 150})
+					.go();
+				</script>
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
