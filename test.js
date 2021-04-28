@@ -1,54 +1,54 @@
 var data = [
-    /*{
+    {
         "name": "Boston Burger Co-Boylston",
-        "image": "images/craigie.jpg",
+        "image": "images/top_rests/bostonburgerco.jpg",
         "desc": "With enormous customized shakes to fabulous burgers, Boston Burger Company seriously has some of the best burgers in Massachusetts"
-    }, I'm assuming this a duplicate because of the test, but I'll leave it here just in case its going to be a different restaraunt than the first*/
+    },
     {
         "name": "Tasty Burger",
-        "image": "images/craigie.jpg",
-        "desc": "With enormous customized shakes to fabulous burgers, Boston Burger Company seriously has some of the best burgers in Massachusetts"
+        "image": "images/top_rests/tastyburger.jpg",
+        "desc": "Quickly get the tastiest burgers in Boston at Tasty Burger! Locations in Fenway, Backbay, Harvard Square, Downtown, and more all over Boston!"
     }
     ,
     {
         "name": "Roxy's Grilled Cheese & Burgers",
-        "image": "images/craigie.jpg",
-        "desc": "With enormous customized shakes to fabulous burgers, Boston Burger Company seriously has some of the best burgers in Massachusetts"
+        "image": "images/top_rests/roxys.jpg",
+        "desc": "With creative, cheesy sandwiches and burgers, order an enormous sandwich here! Located in allston and one of a kind."
     }
     ,
     {
         "name": "Wahlburgers",
-        "image": "images/craigie.jpg",
-        "desc": "With enormous customized shakes to fabulous burgers, Boston Burger Company seriously has some of the best burgers in Massachusetts"
+        "image": "images/top_rests/wahl.jpg",
+        "desc": "Owned by famous actor Mark Wahlburg, order burgers, shakes, fries and more here. Perfect spot to grab a quick bite or head out with friends."
     }
     ,
     {
         "name": "LoLa Burger Boston",
-        "image": "images/craigie.jpg",
+        "image": "images/top_rests/lola.jpg",
         "desc": "With enormous customized shakes to fabulous burgers, Boston Burger Company seriously has some of the best burgers in Massachusetts"
     }
     ,
     {
         "name": "UBURGER",
-        "image": "images/craigie.jpg",
+        "image": "images/top_rests/uburger.jpg",
         "desc": "With enormous customized shakes to fabulous burgers, Boston Burger Company seriously has some of the best burgers in Massachusetts"
     }
     ,
     {
         "name": "Shake Shack",
-        "image": "images/craigie.jpg",
+        "image": "images/top_rests/shakeshack.png",
         "desc": "With enormous customized shakes to fabulous burgers, Boston Burger Company seriously has some of the best burgers in Massachusetts"
     }
     ,
     {
         "name": "Mr. Bartley's Burger Cottage",
-        "image": "images/craigie.jpg",
+        "image": "images/top_rests/bartley.jpg",
         "desc": "With enormous customized shakes to fabulous burgers, Boston Burger Company seriously has some of the best burgers in Massachusetts"
     }
     ,
     {
         "name": "The Gallows",
-        "image": "images/craigie.jpg",
+        "image": "images/top_rests/gallows.jpg",
         "desc": "With enormous customized shakes to fabulous burgers, Boston Burger Company seriously has some of the best burgers in Massachusetts"
     }
 
