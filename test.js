@@ -8,14 +8,12 @@ var data = [
         "name": "Tasty Burger",
         "image": "images/top_rests/tastyburger.jpg",
         "desc": "Quickly get the tastiest burgers in Boston at Tasty Burger! Locations in Fenway, Backbay, Harvard Square, Downtown, and more all over Boston!"
-    }
-    ,
+    },
     {
         "name": "Roxy's Grilled Cheese & Burgers",
         "image": "images/top_rests/roxys.jpg",
         "desc": "With creative, cheesy sandwiches and burgers, order an enormous sandwich here! Located in allston and one of a kind."
-    }
-    ,
+    },
     {
         "name": "Wahlburgers",
         "image": "images/top_rests/wahl.jpg",
@@ -77,8 +75,8 @@ function addFeature(name, image_url, desc){
     paragraph.textContent = desc;
 
     header.appendChild(h4);
-    header.appendChild(paragraph);
     content.appendChild(header);
+    content.appendChild(paragraph);
     feature.appendChild(content);
     grid.appendChild(feature);
 }
